@@ -43,6 +43,11 @@ gen/
 assets/
 local.properties
 
+#Ignore file build by gradle
+.gradle/
+**/proj.android/build/**
+*.iml
+
 # Ignore python compiled files
 *.pyc
 
